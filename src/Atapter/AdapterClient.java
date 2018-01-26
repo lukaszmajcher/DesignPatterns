@@ -5,7 +5,9 @@ public class AdapterClient {
     public static void main(String[] args) {
 
         // Create on order and add items
-        LegacyOMS oms = new LegacyOMS();
+//        LegacyOMS oms = new LegacyOMS();
+
+        OMSAdapter oms = new OMSAdapter();
 
         oms.addItem(new Item("Italian Pizza", 11.99));
         oms.addItem(new Item("Wine", 5.99));
