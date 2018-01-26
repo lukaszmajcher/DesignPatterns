@@ -1,4 +1,4 @@
-package Atapter;
+package Adapter.example1;
 
 public class AdapterClient {
 
