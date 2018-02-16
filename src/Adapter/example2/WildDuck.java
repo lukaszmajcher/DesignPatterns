@@ -4,11 +4,11 @@ public class WildDuck implements Duck {
 
     @Override
     public void fly() {
-        System.out.println("Kwa!, Kwa!");
+        System.out.println("I'm flying");
     }
 
     @Override
     public void quack() {
-        System.out.println("I'm flying");
+        System.out.println("Kwa!, Kwa!");
     }
 }
